@@ -42,9 +42,18 @@ group :development do
   gem 'better_errors'
 end
 
+#authenticatio engine
 gem 'devise'
-gem 'carrierwave'
 
+#Image stuff
+gem 'carrierwave'
+#resize images
+gem 'rmagick'
+
+#store AWS credentials
+gem 'figaro'
+
+gem "fog" #"~> 1.3.1" # This is the version Fog that Carrierwave recommends at the time of this writing.
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
