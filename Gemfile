@@ -37,7 +37,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+  gem 'hirb'
+  gem 'better_errors'
+end
+
 gem 'devise'
+gem 'carrierwave'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -48,5 +55,5 @@ gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+#Use debugger
+gem 'debugger', group: [:development, :test]
