@@ -1,6 +1,6 @@
-# MKS: activa
+# MKS: activa on s3
 
-### Today we learnt how to set up Amazon Web Services: S3
+### Setting up Amazon Web Services: S3 
 
 
 
