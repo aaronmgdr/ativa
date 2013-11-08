@@ -1,4 +1,10 @@
-# this app  stores variables using figaro be sure to 
+# MKS: activa
+
+### Today we learnt how to set up Amazon Web Services: S3
+
+
+
+#### this appstores variables using figaro be sure to 
 
 
 1. check the 'figaro' is in the gem file
